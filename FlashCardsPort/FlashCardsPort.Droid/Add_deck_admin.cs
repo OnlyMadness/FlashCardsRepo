@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+
+namespace FlashCardsPort.Droid
+{
+    class Add_deck_admin: DialogFragment
+    {
+        public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+        {
+            return base.OnCreateView(inflater, container, savedInstanceState);
+            var view = inflater.Inflate(Resource.Layout.dialog_add_deck_admin, container, false);
+            return view;
+        }
+    }
+}

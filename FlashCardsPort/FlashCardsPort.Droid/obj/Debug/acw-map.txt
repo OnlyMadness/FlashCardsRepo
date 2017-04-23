@@ -1,0 +1,12 @@
+FlashCardsPort.Droid.Add_deck_admin, FlashCardsPort.Droid;md5836cbedc49b955fe9bbd696d60980cb1.Add_deck_admin
+FlashCardsPort.Droid.Add_deck_admin, FlashCardsPort.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5836cbedc49b955fe9bbd696d60980cb1.Add_deck_admin
+FlashCardsPort.Droid.Add_deck_admin;md5836cbedc49b955fe9bbd696d60980cb1.Add_deck_admin
+flashcardsport.droid.Add_deck_admin;md5836cbedc49b955fe9bbd696d60980cb1.Add_deck_admin
+FlashCardsPort.Droid.Decks_admin, FlashCardsPort.Droid;md5836cbedc49b955fe9bbd696d60980cb1.Decks_admin
+FlashCardsPort.Droid.Decks_admin, FlashCardsPort.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5836cbedc49b955fe9bbd696d60980cb1.Decks_admin
+FlashCardsPort.Droid.Decks_admin;md5836cbedc49b955fe9bbd696d60980cb1.Decks_admin
+flashcardsport.droid.Decks_admin;md5836cbedc49b955fe9bbd696d60980cb1.Decks_admin
+FlashCardsPort.Droid.MainActivity, FlashCardsPort.Droid;md5836cbedc49b955fe9bbd696d60980cb1.MainActivity
+FlashCardsPort.Droid.MainActivity, FlashCardsPort.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5836cbedc49b955fe9bbd696d60980cb1.MainActivity
+FlashCardsPort.Droid.MainActivity;md5836cbedc49b955fe9bbd696d60980cb1.MainActivity
+flashcardsport.droid.MainActivity;md5836cbedc49b955fe9bbd696d60980cb1.MainActivity
