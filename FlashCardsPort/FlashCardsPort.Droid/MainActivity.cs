@@ -12,7 +12,7 @@ using FlashCardsPort;
 
 namespace FlashCardsPort.Droid
 {
-	[Activity (Label = "FlashCards.Droid", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity (Label = "FlashCards.Droid", MainLauncher = true, Icon = "@drawable/tick")]
 	public class MainActivity : Activity
 	{
         int count = 1;

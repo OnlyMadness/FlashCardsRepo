@@ -45,7 +45,13 @@ namespace FlashCardsPort.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int cross = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Icon = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int tick = 2130837506;
 			
 			static Drawable()
 			{
@@ -60,32 +66,56 @@ namespace FlashCardsPort.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060006
-			public const int Register = 2131099654;
+			// aapt resource value: 0x7f060000
+			public const int Card_1 = 2131099648;
 			
-			// aapt resource value: 0x7f060003
-			public const int cost = 2131099651;
-			
-			// aapt resource value: 0x7f060004
-			public const int email = 2131099652;
-			
-			// aapt resource value: 0x7f060001
-			public const int header = 2131099649;
+			// aapt resource value: 0x7f06000a
+			public const int Cost_deck = 2131099658;
 			
 			// aapt resource value: 0x7f060008
-			public const int item1 = 2131099656;
+			public const int Deck = 2131099656;
 			
-			// aapt resource value: 0x7f060000
-			public const int list = 2131099648;
+			// aapt resource value: 0x7f06000d
+			public const int Register = 2131099661;
+			
+			// aapt resource value: 0x7f060010
+			public const int done = 2131099664;
+			
+			// aapt resource value: 0x7f06000b
+			public const int email = 2131099659;
+			
+			// aapt resource value: 0x7f06000f
+			public const int item1 = 2131099663;
+			
+			// aapt resource value: 0x7f060006
+			public const int list = 2131099654;
 			
 			// aapt resource value: 0x7f060007
-			public const int log = 2131099655;
+			public const int list_card = 2131099655;
+			
+			// aapt resource value: 0x7f06000e
+			public const int log = 2131099662;
+			
+			// aapt resource value: 0x7f06000c
+			public const int pass = 2131099660;
+			
+			// aapt resource value: 0x7f060003
+			public const int title = 2131099651;
+			
+			// aapt resource value: 0x7f060009
+			public const int title_deck = 2131099657;
 			
 			// aapt resource value: 0x7f060005
-			public const int pass = 2131099653;
+			public const int translate = 2131099653;
 			
 			// aapt resource value: 0x7f060002
-			public const int title = 2131099650;
+			public const int translate_card = 2131099650;
+			
+			// aapt resource value: 0x7f060004
+			public const int word = 2131099652;
+			
+			// aapt resource value: 0x7f060001
+			public const int word_card = 2131099649;
 			
 			static Id()
 			{
@@ -101,13 +131,22 @@ namespace FlashCardsPort.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int decks = 2130903040;
+			public const int add_card_admin = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int dialog_add_deck_admin = 2130903041;
+			public const int Custom_layout = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Main = 2130903042;
+			public const int decks = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int dialog_add_cards_admin = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int dialog_add_deck_admin = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Main = 2130903045;
 			
 			static Layout()
 			{
@@ -123,7 +162,10 @@ namespace FlashCardsPort.Droid
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int main = 2131034112;
+			public const int deck_admin_actionbar = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int main = 2131034113;
 			
 			static Menu()
 			{

@@ -58,6 +58,32 @@ namespace FlashCardsPort
                 con.Close();
             }
         }
+        public void Add_deck_cards(String deck, List<FlashCardsPort.Droid.Card> list)
+        {
+            try
+            {
+                if (con.State == System.Data.ConnectionState.Closed)
+                {
+                    con.Open();
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        MySqlCommand cmd = new MySqlCommand("Insert INTO cards(deck,word,translate) VALUES (@deck,@word,@translate)", con);
+                        cmd.Parameters.AddWithValue("@deck", deck);
+                        cmd.Parameters.AddWithValue("@word", list[i].Word);
+                        cmd.Parameters.AddWithValue("@translate", list[i].Translate);
+                        cmd.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (MySqlException ex)
+            {
+
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
         public void Decks_list()
         {
             items_deck = new List<String>();

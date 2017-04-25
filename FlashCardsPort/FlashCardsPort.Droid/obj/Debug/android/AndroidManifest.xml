@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="FlashCardsPort.Droid">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:installLocation="auto" android:versionCode="1" android:versionName="1.0" package="FlashCardsPort.Droid">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="FlashCardsPort.Droid" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:name=".Add_deck_admin" android:label="ЫЫЫ" android:windowSoftInputMode="stateHidden" />
+    <activity android:label="Добавление карт" android:name="md5836cbedc49b955fe9bbd696d60980cb1.Add_card_admin" />
+    <activity android:label="Decks" android:name="md5836cbedc49b955fe9bbd696d60980cb1.Add_deck_admin" />
     <activity android:label="Decks" android:name="md5836cbedc49b955fe9bbd696d60980cb1.Decks_admin" />
-    <activity android:icon="@drawable/icon" android:label="FlashCards.Droid" android:name="md5836cbedc49b955fe9bbd696d60980cb1.MainActivity">
+    <activity android:icon="@drawable/tick" android:label="FlashCards.Droid" android:name="md5836cbedc49b955fe9bbd696d60980cb1.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
