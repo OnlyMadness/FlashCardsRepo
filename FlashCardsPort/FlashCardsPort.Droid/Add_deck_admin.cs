@@ -36,9 +36,9 @@ namespace FlashCardsPort.Droid
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.dialog_add_deck_admin);
 
-            title = FindViewById<EditText>(Resource.Id.title);
+            title = FindViewById<EditText>(Resource.Id.title_deck);
             list_card = FindViewById<ListView>(Resource.Id.list);
-            cost = FindViewById<EditText>(Resource.Id.Cost_deck);
+           // cost = FindViewById<EditText>(Resource.Id.Cost_deck);
             ActionBar actionBar = ActionBar;
             actionBar.SetDisplayShowHomeEnabled(true);
             actionBar.SetDisplayHomeAsUpEnabled(true);
@@ -101,7 +101,7 @@ namespace FlashCardsPort.Droid
             var view = layoutInflater.Inflate(Resource.Layout.add_card_admin, null);
             //  input = new EditText(this);
             word_card = (EditText)view.FindViewById(Resource.Id.title_deck);
-            translate_card = (EditText)view.FindViewById(Resource.Id.Cost_deck);
+          //  translate_card = (EditText)view.FindViewById(Resource.Id.Cost_deck);
             alert.SetPositiveButton("Добавить", HandlePositiveButtonClick);
             alert.SetNegativeButton("Отмена", HandleNegativeButtonClick);
             alert.SetView(view);

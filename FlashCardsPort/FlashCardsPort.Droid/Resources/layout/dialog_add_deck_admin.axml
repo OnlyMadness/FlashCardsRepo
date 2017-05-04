@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
-  xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -8,22 +7,21 @@
     android:focusableInTouchMode="true">
     <TextView
         android:id="@+id/Deck"
+        android:layout_centerHorizontal="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Колода"
-        android:textSize="30sp"/>
-     <EditText
+        android:textSize="30sp" />
+    <EditText
         android:id="@+id/title_deck"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Deck"
-        android:hint="Название">
-      </EditText>
-      <EditText
+        android:hint="Название" />
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Цена"        
+        android:hint="Цена"
         android:id="@+id/Cost_deck"
-        android:layout_below="@+id/title_deck">
-    </EditText>
-</LinearLayout>
+        android:layout_below="@+id/title_deck" />
+</RelativeLayout>

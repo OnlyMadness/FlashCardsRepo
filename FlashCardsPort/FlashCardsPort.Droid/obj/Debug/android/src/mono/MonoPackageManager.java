@@ -101,18 +101,10 @@ class MonoPackageManager_Resources {
 		"FlashCardsPort.Droid.dll",
 		"FlashCardsPort.dll",
 		"MySql.Data.CF.dll",
-		"System.Runtime.dll",
-		"System.Threading.dll",
-		"System.Collections.dll",
-		"System.Collections.Concurrent.dll",
-		"System.Diagnostics.Debug.dll",
-		"System.Reflection.dll",
-		"System.Linq.dll",
-		"System.Runtime.InteropServices.dll",
-		"System.Runtime.Extensions.dll",
-		"System.Reflection.Extensions.dll",
+		"Xamarin.Android.Support.Constraint.Layout.dll",
+		"Xamarin.Android.Support.Constraint.Layout.Solver.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
 }
