@@ -13,6 +13,7 @@ using MySql.Data.MySqlClient;
 using FlashCardsPort;
 using System.Runtime.Remoting.Contexts;
 using Android.Webkit;
+using System.Net;
 
 namespace FlashCardsPort.Droid
 {
@@ -34,6 +35,8 @@ namespace FlashCardsPort.Droid
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
+            bd.connection();
+            
             SetContentView(Resource.Layout.decks);
             list_deck = FindViewById<ListView>(Resource.Id.list);
             list_deck.ItemLongClick += delete_edit_item;

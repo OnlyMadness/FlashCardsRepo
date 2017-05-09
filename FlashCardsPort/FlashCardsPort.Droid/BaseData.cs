@@ -11,9 +11,30 @@ namespace FlashCardsPort
         public int i = 0;
         public List<String> items_deck,items_deck_cost, items_card_title, items_card_translate;       
         public string[] decks = new string[10];
-        public MySqlConnection con = new MySqlConnection("Server=sql11.freemysqlhosting.net;port=3306;database=sql11172481;User Id=sql11172481;Password = MpcHhtCag1;charset=utf8");
+         public MySqlConnection con = new MySqlConnection("Server=31.220.20.81;port=3306;database=u688865617_flash;User Id=u688865617_flash;Password = kinkston;charset=utf8");
+        //public MySqlConnection con = new MySqlConnection("Server=31.220.20.8;port=3306;database=u688865617_flash;User Id=u688865617_flash;Password = kinkston;charset=utf8");
+   //     public MySqlConnectionStringBuilder mysqlbuilder = new MySqlConnectionStringBuilder();
+   //     public MySqlConnection con;
+        public void connection()
+        {
+            //mysqlbuilder.Server = "sql11.freemysqlhosting.net";  // IP адоес БД
+            //mysqlbuilder.Database = "sql11172481";    // Имя БД
+            //mysqlbuilder.UserID = "sql11172481";        // Имя пользователя БД
+            //mysqlbuilder.Password = "MpcHhtCag1";   // Пароль пользователя БД
+            //mysqlbuilder.CharacterSet = "cp1251"; // Кодировка Базы Данных
+            //con = new MySqlConnection(mysqlbuilder.ConnectionString);
+            //mysqlbuilder.Server = "31.220.20.81";  
+            //mysqlbuilder.Port = 3306;
+            //mysqlbuilder.Database = "u688865617_flash";    
+            //mysqlbuilder.UserID = "u688865617_flash";        
+            //mysqlbuilder.Password = "kinkston";   
+            //mysqlbuilder.CharacterSet = "cp1251"; 
+            //con = new MySqlConnection(mysqlbuilder.ConnectionString);
+        }
+
         public void Delete_card(String deck, String word)
         {
+
             try
             {
                 if (con.State == System.Data.ConnectionState.Closed)

@@ -68,5 +68,3 @@ C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCard
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\bin\Debug\Xamarin.Android.Support.Constraint.Layout.Solver.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\res\layout\edit_delete_item.xml
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\res\layout\cards_deck.xml
-C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\FlashCardsPort.Droid.dll.mdb
-C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\bin\Debug\FlashCardsPort.Droid.dll.mdb

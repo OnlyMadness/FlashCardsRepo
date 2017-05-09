@@ -27,6 +27,7 @@ namespace FlashCardsPort.Droid
             SetContentView (Resource.Layout.Main);
             // Get our button from the layout resource,
             // and attach an event to it
+            bd.connection();
             login = FindViewById<Button> (Resource.Id.login_btn_login);
             txtemail = FindViewById<EditText>(Resource.Id.login_email);
             txtpass = FindViewById<EditText>(Resource.Id.login_password);

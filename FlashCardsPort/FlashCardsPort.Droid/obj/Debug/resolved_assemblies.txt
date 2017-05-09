@@ -15,8 +15,8 @@ C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCard
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Threading.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Collections.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Reflection.dll
+C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Linq.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
@@ -25,5 +25,6 @@ C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCard
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Numerics.dll
-C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\Mono.Data.Tds.dll
 C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\System.Transactions.dll
+C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\Mono.Data.Tds.dll
+C:\Users\Kinqston\Documents\Visual Studio 2015\Projects\FlashCardsPort\FlashCardsPort\FlashCardsPort.Droid\obj\Debug\android\assets\Mono.Security.dll

@@ -16,6 +16,7 @@ using Android.Provider;
 using Android.Graphics;
 using Java.Sql;
 using System.Runtime.Remoting.Contexts;
+using System.Net;
 
 namespace FlashCardsPort.Droid
 {
@@ -23,6 +24,8 @@ namespace FlashCardsPort.Droid
     public class Cards_deck : Activity
     {
         static BaseData bd = new BaseData();
+        WebClient myWebClient = new WebClient();
+        public String filename;
         private List<Card> new_card;
         private List<Card> cards;
         private CustomAdapter adapter;
@@ -43,6 +46,7 @@ namespace FlashCardsPort.Droid
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.cards_deck);
+            bd.connection();
             list_card = FindViewById<ListView>(Resource.Id.list_cards);
             list_card.ItemLongClick += delete_edit_card;
             ActionBar actionBar = ActionBar;
@@ -167,9 +171,11 @@ namespace FlashCardsPort.Droid
         }
         private void Camera_open(object sender, EventArgs e)
         {
+            filename = "file_" + Guid.NewGuid().ToString() + ".jpg";
             Camera_intent = new Intent(MediaStore.ActionImageCapture);
-            file = new File(Android.OS.Environment.ExternalStorageDirectory, "file_" + Guid.NewGuid().ToString() + ".jpg");
+            file = new File(Android.OS.Environment.ExternalStorageDirectory, filename);
             uri = Android.Net.Uri.FromFile(file);
+
             Camera_intent.PutExtra(MediaStore.ExtraOutput, uri);
             Camera_intent.PutExtra("return-data", true);
             StartActivityForResult(Camera_intent, 0);
@@ -178,6 +184,55 @@ namespace FlashCardsPort.Droid
         {
             Galery_intent = new Intent(Intent.ActionPick, MediaStore.Images.Media.ExternalContentUri);
             StartActivityForResult(Intent.CreateChooser(Galery_intent, "Select images"), 2);
+        }
+        protected override void OnActivityResult(int requestCode, [GeneratedEnum] Result resultCode, Intent data)
+        {
+            if ((requestCode == 0 && resultCode == Result.Ok))
+            {
+                CropImage();
+            }
+            else if (requestCode == 2)
+            {
+                if (data != null)
+                {
+                    uri = data.Data;
+                    CropImage();
+                }
+
+            }
+            else if (requestCode == 1)
+            {
+                if (data != null)
+                {
+                    Bundle bundle = data.Extras;
+                    Bitmap bitmap = (Bitmap)bundle.GetParcelable("data");
+                    System.Console.WriteLine("FFFF" + bitmap);
+
+                }
+            }
+        }
+        private void CropImage()
+        {
+            try
+            {
+                Crop_intent = new Intent("com.android.camera.action.CROP");
+                Crop_intent.SetDataAndType(uri, "image/*");
+
+                Crop_intent.PutExtra("crop", "true");
+                Crop_intent.PutExtra("outputX", 128);
+                Crop_intent.PutExtra("outputY", 128);
+                Crop_intent.PutExtra("aspectX", 3);
+                Crop_intent.PutExtra("aspectY", 4);
+                Crop_intent.PutExtra("scaleUpIfNeeded", true);
+                Crop_intent.PutExtra("return-data", true);
+
+                StartActivityForResult(Crop_intent, 1);
+
+            }
+            catch (ActivityNotFoundException ex)
+            {
+
+            }
         }
         private void HandleNegativeButtonClick(object sender, DialogClickEventArgs e)
         {

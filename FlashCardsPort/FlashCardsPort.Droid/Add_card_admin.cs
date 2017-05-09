@@ -185,6 +185,7 @@ namespace FlashCardsPort.Droid
             Camera_intent = new Intent(MediaStore.ActionImageCapture);
             file = new File(Android.OS.Environment.ExternalStorageDirectory, "file_" + Guid.NewGuid().ToString() + ".jpg"); 
             uri = Android.Net.Uri.FromFile(file);
+
             Camera_intent.PutExtra(MediaStore.ExtraOutput, uri);
             Camera_intent.PutExtra("return-data", true);
             StartActivityForResult(Camera_intent, 0);
