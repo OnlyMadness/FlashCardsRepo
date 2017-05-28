@@ -1,0 +1,9 @@
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/obj/Debug/FlashCardsPort.Droid.dll
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/obj/Debug/FlashCardsPort.Droid.pdb
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/bin/Debug/MySql.Data.CF.dll
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/bin/Debug/Xamarin.Android.Support.Constraint.Layout.dll
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/bin/Debug/Xamarin.Android.Support.Constraint.Layout.Solver.dll
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/bin/Debug/FlashCardsPort.dll
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/bin/Debug/FlashCardsPort.dll.mdb
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort.Droid/bin/Debug/FlashCardsPort.pdb

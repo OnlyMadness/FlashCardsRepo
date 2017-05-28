@@ -14,5 +14,8 @@ namespace FlashCardsPort.iOS
     [Register ("Teaching")]
     partial class Teaching
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

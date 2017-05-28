@@ -1,0 +1,7 @@
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort/bin/Debug/FlashCardsPort.dll.mdb
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort/bin/Debug/FlashCardsPort.pdb
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort/bin/Debug/FlashCardsPort.dll
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort/obj/Debug/FlashCardsPort.dll
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort/obj/Debug/FlashCardsPort.dll.mdb
+/Users/arturnemcenko/Projects/Kinqston/FlashCardsPort/FlashCardsPort/FlashCardsPort/obj/Debug/FlashCardsPort.pdb

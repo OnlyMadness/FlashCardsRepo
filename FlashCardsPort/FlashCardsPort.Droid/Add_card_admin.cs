@@ -30,7 +30,7 @@ namespace FlashCardsPort.Droid
         File file;
         Intent Camera_intent, Galery_intent, Crop_intent;
         const int RequestPermissionCode = 1;
-        static BaseData bd = new BaseData();
+        //static BaseData bd = new BaseData();
         private List<Card> cards;
         private CustomAdapter adapter;
         public ArrayAdapter<string> adapter2;

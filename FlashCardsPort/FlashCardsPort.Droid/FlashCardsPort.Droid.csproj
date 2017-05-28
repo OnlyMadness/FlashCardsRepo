@@ -13,7 +13,7 @@
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidApplication>True</AndroidApplication>
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AssemblyName>FlashCardsPort.Droid</AssemblyName>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
@@ -58,12 +58,12 @@
   <ItemGroup>
     <ProjectReference Include="..\FlashCardsPort\FlashCardsPort.csproj">
       <Name>FlashCardsPort</Name>
+      <Project>{451780C1-B933-42AA-868A-4680677FDAD9}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Add_card_admin.cs" />
     <Compile Include="Add_deck_admin.cs" />
-    <Compile Include="BaseData.cs" />
     <Compile Include="Card.cs" />
     <Compile Include="Cards_deck.cs" />
     <Compile Include="CustomAdapter.cs" />
@@ -151,5 +151,5 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\Picture.png" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

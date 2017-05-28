@@ -23,6 +23,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
     <MtouchProfiling>true</MtouchProfiling>
+    <MtouchI18n>west</MtouchI18n>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>full</DebugType>
@@ -71,10 +72,12 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="Mono.Data.Sqlite" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FlashCardsPort\FlashCardsPort.csproj">
       <Name>FlashCardsPort</Name>
+      <Project>{451780C1-B933-42AA-868A-4680677FDAD9}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -141,14 +144,44 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="MainViewController.cs" />
+    <Compile Include="MainViewController.designer.cs">
+      <DependentUpon>MainViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="TeachingDecksTableViewController.cs" />
+    <Compile Include="TeachingDecksTableViewController.designer.cs">
+      <DependentUpon>TeachingDecksTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeachingViewController.cs" />
+    <Compile Include="TeachingViewController.designer.cs">
+      <DependentUpon>TeachingViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseData.cs" />
+    <Compile Include="Cards_item.cs" />
+    <Compile Include="Decks_item.cs" />
+    <Compile Include="SQLiteAsync.cs" />
+    <Compile Include="SQLite.cs" />
+    <Compile Include="CardLocal.cs" />
+    <Compile Include="DeckLocal.cs" />
+    <Compile Include="UserPropertyViewController.cs" />
+    <Compile Include="UserPropertyViewController.designer.cs">
+      <DependentUpon>UserPropertyViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyUser.cs" />
+    <Compile Include="ArchiveDecksTableViewController.cs" />
+    <Compile Include="ArchiveDecksTableViewController.designer.cs">
+      <DependentUpon>ArchiveDecksTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArchiveCardsTableViewController.cs" />
+    <Compile Include="ArchiveCardsTableViewController.designer.cs">
+      <DependentUpon>ArchiveCardsTableViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RepeatViewModal.cs" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="MySQL-Plugin">

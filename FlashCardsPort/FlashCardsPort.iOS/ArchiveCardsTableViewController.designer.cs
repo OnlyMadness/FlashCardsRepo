@@ -14,5 +14,8 @@ namespace FlashCardsPort.iOS
     [Register ("ArchiveCardsTableViewController")]
     partial class ArchiveCardsTableViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

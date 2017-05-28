@@ -14,5 +14,8 @@ namespace FlashCardsPort.iOS
     [Register ("TeachingDecksTableViewController")]
     partial class TeachingDecksTableViewController
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }
